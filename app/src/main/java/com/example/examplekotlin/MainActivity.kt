@@ -13,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         print("hello_world")
+        val x = 1
+        val y = 2
+        print(x+y)
     }
 
 }
